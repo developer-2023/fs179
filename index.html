@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ternary operator - short hand if...else</title>
+</head>
+<body>
+    
+    <script>
+        let age = 18;
+
+        if ( age >= 18) {
+            console.log("adult")
+        } else {
+            console.log("underage")
+        };
+
+        (age >= 18) ? console.log("adult") : console.log("underage");
+
+        let data = (age >= 18) ? "adult" : "underage";
+        console.log(data);
+    </script>
+</body>
+</html>
